@@ -1,4 +1,4 @@
-package co.id.bca.spring.NanoLendingProduct.model;
+package id.co.bca.spring.NanoLendingProduct.model;
 
 import jakarta.persistence.*;
 
@@ -9,7 +9,7 @@ import java.sql.Date;
 public class LendingProduct {
 
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
     int id;
     @Column(name = "lender_id")

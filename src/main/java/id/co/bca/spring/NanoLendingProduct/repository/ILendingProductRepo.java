@@ -1,6 +1,6 @@
-package co.id.bca.spring.NanoLendingProduct.repository;
+package id.co.bca.spring.NanoLendingProduct.repository;
 
-import co.id.bca.spring.NanoLendingProduct.model.LendingProduct;
+import id.co.bca.spring.NanoLendingProduct.model.LendingProduct;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

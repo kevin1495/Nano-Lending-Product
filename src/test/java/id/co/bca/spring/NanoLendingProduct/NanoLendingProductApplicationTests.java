@@ -1,4 +1,4 @@
-package co.id.bca.spring.NanoLendingProduct;
+package id.co.bca.spring.NanoLendingProduct;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

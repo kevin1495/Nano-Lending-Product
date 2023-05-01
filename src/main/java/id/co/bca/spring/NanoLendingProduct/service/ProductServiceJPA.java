@@ -1,8 +1,7 @@
-package co.id.bca.spring.NanoLendingProduct.service;
+package id.co.bca.spring.NanoLendingProduct.service;
 
-import co.id.bca.spring.NanoLendingProduct.model.LendingProduct;
-import co.id.bca.spring.NanoLendingProduct.repository.ILendingProductRepo;
-import co.id.bca.spring.NanoLendingProduct.service.ILendingProductService;
+import id.co.bca.spring.NanoLendingProduct.model.LendingProduct;
+import id.co.bca.spring.NanoLendingProduct.repository.ILendingProductRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -16,26 +15,26 @@ public class ProductServiceJPA implements ILendingProductService {
 
     @Override
     public LendingProduct insert(LendingProduct product) {
-        return null;
+        return repository.save(product);
     }
 
     @Override
     public LendingProduct update(LendingProduct product) {
-        return null;
+        return repository.save(product);
     }
 
     @Override
     public void delete(LendingProduct product) {
-
+        repository.delete(product);
     }
 
     @Override
     public LendingProduct findProduct(LendingProduct product) {
-        return null;
+        return repository.findLendingProductById(product.getId());
     }
 
     @Override
     public List<LendingProduct> allProducts() {
-        return null;
+        return repository.findAllByOrderByProductName();
     }
 }

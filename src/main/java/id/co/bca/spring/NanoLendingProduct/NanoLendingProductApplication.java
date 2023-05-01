@@ -1,4 +1,4 @@
-package co.id.bca.spring.NanoLendingProduct;
+package id.co.bca.spring.NanoLendingProduct;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

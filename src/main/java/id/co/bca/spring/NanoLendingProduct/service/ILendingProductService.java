@@ -1,6 +1,6 @@
-package co.id.bca.spring.NanoLendingProduct.service;
+package id.co.bca.spring.NanoLendingProduct.service;
 
-import co.id.bca.spring.NanoLendingProduct.model.LendingProduct;
+import id.co.bca.spring.NanoLendingProduct.model.LendingProduct;
 
 import java.util.List;
 
